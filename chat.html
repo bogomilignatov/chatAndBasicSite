@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            .container {
+                height: 500px;
+                width: 300px;
+                border-radius: 15px;
+            }
+            .clear{
+                clear: both;
+            }
+            .img{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                margin-top: 15px;
+                margin-left: 10px;
+                margin-right: 5px;
+            }
+            .chat-img{
+                border-radius: 50%;
+                height: 40px;
+                width: 40px;
+                margin-left: 10px;
+                padding-top: 10px;
+            }
+            .p-10{
+                background-color: #182633;
+                border-radius: 15px 15px 0px 0px;
+                height: 80px;
+            }
+            .box-footer{
+                background-color: #182633;
+                border-radius: 0px 0px 15px 15px;
+                height: 40px;
+            }
+            .box-header-left{
+                float: left;
+                width: 30%;
+                height: 30%;
+            }
+            .box-header-right .username{
+                float: right;
+                width: 70%;
+            }
+            .username{
+                text-align: left;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                padding-top: 10px;
+            }
+            .status{
+                font-size: 10px;
+                color: rgb(9, 218, 9);
+                font-weight: bold;
+            }
+            .they-msg{
+                height: 20px;
+                width: 200px;
+                border: 1px solid black;
+                border-radius: 10px;
+                font-size: 12px;
+                padding-top: 5px;
+                padding-left: 2px;
+                color: white;
+                background-color:#000e1b;
+                padding-top: 12px;
+                padding-left: 10px;
+            }
+            .time{
+                font-size:10px;
+                color: grey;
+                padding-top: 0px;
+            }
+            .they-left{
+                float: left;
+                width: 60px;
+                height: 60px;
+            }
+            .they-right{
+                float: left;
+                width: 60%;
+                height: 40px;
+            }
+            .us-msg{
+                height: 20px;
+                width: 160px;
+                border-radius: 10px;
+                font-size: 12px;
+                padding-top: 5px;
+                padding-right: 2px;
+                color: white;
+                background-color: #01c583;
+                padding-top: 12px;
+                padding-left: 10px;
+                float: right;
+            }
+            .us{
+                float: right;
+                padding-right: 5px;
+            }
+            .box-body{
+                padding-bottom: 321px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" style="position: relative;">
+                <div class="box-header">
+                    <div class="box-header-left">
+                        <div class="p-10">
+                            <img class="img" src="/week4/images/1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="box-header-right">
+                        <div class="p-10">
+                            <div class="username">Мария Петрова</div>
+                            <span class="status">ONLINE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="box-body">
+                    <!-- THEY-->
+                    <div class="they">
+                        <div class="they-left">
+                            <img class="chat-img" src="/week4/images/1.jpg" alt="" />
+                        </div>
+                        <div class="they-right">
+                            <p class="they-msg">Здравейте, бих искал да попитам .....</p>
+                            <div class="time">15:15</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <!-- THEY END -->
+                    <!-- US -->
+                    <div class="us">
+                        <p class="us-msg">Здравейте, това е отговора .....</p>
+                    </div>
+                    <!-- US END-->
+                </div>
+                <div class="clear"></div>
+                <div class="box-footer">
+                    <input type="text" class="message-field" placeholder="Въведи съобщение" style="border: 0;  
+                    padding-left: 10px; padding-top: 10px; font-size: 15px; background: transparent; color: white; ">
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

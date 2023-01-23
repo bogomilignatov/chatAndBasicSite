@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            .clear{
+                clear: both;
+            }
+            body, ul, p{
+                padding: 0;
+                margin: 0;
+            }
+            .menu{
+                float: right;
+                width: 100%;
+                text-align: center;
+            }
+            .menu ul{
+                display: inline-block;
+                list-style-type: none;
+                background: white;
+                width: 100%;
+                height: 60px;
+            }
+            .menu ul li{
+                display: inline-block;
+                padding: 20px;
+                font-weight: bold;
+                font-family: "Times New Roman";
+            }
+            .menu ul li a{
+                color: #72b5c4;
+                text-decoration: none;
+            }
+            .menu ul li a:hover{
+                color: #0b798e;
+                background-color: white;
+            }
+            .img-txt img{
+                width: 100%;
+                height: 600px;
+            }
+            h1{
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 60px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            h4{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .img-txt{
+                padding-bottom: 30px;
+            }
+            .subscribe h3{
+                position: absolute;
+                left: 150px;
+                top: 700px;
+                width: 340px;
+                height: 50px;
+                font-size: 30px;
+                font-style: italic;
+            }
+            .txt-btn{
+                position: absolute;
+                left: 900px;
+                top: 730px;
+                width: 650px;
+                height: 50px;
+                font-size: 30px;
+            }
+            input{
+                padding: 10px;
+                width: 400px;
+                font-size: 12px;
+                border-radius: 15px;
+            }
+            button{
+                width: 150px;
+                height: 38px;
+                border-radius: 15px;
+                background-color: #0b798e;
+                color: white;
+            }
+            button:hover{
+                color: white;
+                background-color: #72b5c4;
+            }
+            .img-left{
+                float: left;
+                width: 50%;
+                height: 200px;
+            }
+            .img-right{
+                float: right;
+                width: 40%;
+                height: 200px;
+            }
+            .big-img{
+                position: absolute;
+                top: 900px;
+                float: left;
+                padding-left: 20px;
+                width: 57%;
+                height: 550px;
+            }
+            .img-top{
+                position: absolute;
+                top: 900px;
+                float: right;
+                padding-right: 10px;
+                width: 39%;
+                height: 270px;
+            }
+            .img-bottom{
+                position: absolute;
+                top: 1180px;
+                float: right;
+                padding-right: 10px;
+                width: 39%;
+                height: 270px;
+            }
+            .more button{
+                position: absolute;
+                left: 700px;
+                top: 2350px;
+                width: 200px;
+                height: 40px;
+                font-size: 20px;
+                float: center;
+            }
+            .offert img{
+                width: 400px;
+                height: 250px;
+            }
+            .offert{
+                position: absolute;
+                left: 20px;
+                top: 1500px;
+            }
+            .offert-1 h3{
+                position: absolute;
+                left: 420px;
+                top: 1px;
+            }
+            .offert-1 p{
+                position: absolute;
+                left: 420px;
+                top: 50px;
+                text-align: justify;
+                width: 900px;
+            }
+            .offert-2 h3{
+                position: absolute;
+                left: 420px;
+                top: 270px;
+            }
+            .offert-2 p{
+                position: absolute;
+                left: 420px;
+                top: 320px;
+                text-align: justify;
+                width: 900px;
+            }
+            .offert-3 h3{
+                position: absolute;
+                left: 420px;
+                top: 540px;
+            }
+            .offert-3 p{
+                position: absolute;
+                left: 420px;
+                top: 590px;
+                text-align: justify;
+                width: 900px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="">Начало</a>
+                </li>
+                <li>
+                    <a href="">Блог</a>
+                </li>
+                <li>
+                    <a href="">За нас</a>
+                </li>
+            </ul>
+        </div>
+        <div class="img-txt">
+            <img src="/week4/images/2.jpg" alt="">
+            <h1>Летни почивки</h1>
+            <h4>Летни почивки на екзотични места</h4>
+        </div>
+        <div class="clear"></div>
+        <div class="subscribe">
+            <h3>Абонирай се за бюлетин</h3>
+            <div class="txt-btn">
+                <input type="text" placeholder="Въведи имейл адрес">
+                <button type="submit">Абониране</button>
+            </div>
+        </div>
+        <div class="img-img">
+            <div class="clear"></div>
+            <div class="img-left">
+                <img src="/week4/images/3.jpg" class="big-img" alt="">
+            </div>
+            <div class="img-right">
+                <img src="/week4/images/4.jpg" class = "img-top" alt="">
+                <img src="/week4/images/5.jpg" class="img-bottom" alt="">
+            </div>
+        </div>
+        <div class="offert">
+            <div class="offert-1">
+                <img src="/week4/images/6.jpg" class="" alt="">
+                <h3>Дубай</h3>
+                <p>Дубай е столицата и най-големият град на емирство Дубай от Обединените арабски емирства. Градът е най-важният 
+                    търговски и финансов център на ОАЕ и на целия Близък Изток. Дубай е древен град, известен със своите традиционни 
+                    пазари. Местата, които могат да се разгледат, са много, но сред най-известните са Двореца на шейха, Дубайския музей 
+                    и Джумейра. Градът е изпълнен с модерни небостъргачи като Емиратските Кули, които са 12-ата и 24-тата най-високи 
+                    сгради в света, луксозния 7-звезден хотел Бурж Ал Араб, превърнал се в символ на Дубай, както и небостъргача Бурдж 
+                    Халифа, който е открит на 4 януари 2010 г. Височината му е 828 метра – най-високата сграда в света. Построени са 
+                    изкуствени острови, най-големите в света – трите Палмови острова – Джумейра, Джебел Али и Дейра, Остров на света и 
+                    Дубайска брегова линия, които включват вили, магазини и хотели. Фонтан Дубай – музикален фонтан, разположен край 
+                    небостъргача Бурдж Халифа. Един от най-големите и високи фонтани в света – височината на струите му достига 150 метра. 
+                    Аквариумът – един от най-големите аквариуми в света, разположен в най-големия търговско-развлекателен център в Близкия 
+                    Изток – Търговско-развлекателен център Дубай. Друг аквариум се намира в хотел „Атлантис“ на остров Джумейра.
+                </p>
+            </div>
+            <br/>
+            <div class="offert-2">
+                <img src="/week4/images/7.jpg" class="" alt="">
+                <h3>Куба</h3>
+                <p>
+                    Република Куба е латиноамериканска островна държава на Карибите с излаз на Карибско море, Мексиканския залив и 
+                    Атлантическия океан. Куба е най-голямата по площ карибска държава, заемайки големия едноименен остров и няколко 
+                    по-малки архипелага и има най-голямо население сред островните държави в региона – над 11 000 000 души. Столицата 
+                    ѝ е град Хавана. Кубинската култура представлява специфична комбинация от испански и африкански традиции, с осезаемо 
+                    латиноамериканско влияние. Кубинските музикални и танцови изкуства са лесноразпознаваеми по цял свят. Преобладаващият 
+                    стил в музиката е Сон кубано, появил се през 1930-те години, придобил широка популярност първо в Латинска Америка, 
+                    а после и по цял свят. Най-специфичните инструменти в изпълнението му са тромпетът, контрабасът и китарата, както и 
+                    различни видове местни перкусионни инструменти. Сон кубано оказва много голямо влияние върху развитието на салсата, 
+                    румбата и мамбото. Центърът за съвременно изкуство „Вилфредо Лам“ е на катедралния площад, разместен в палат от XVIII 
+                    век, някога резиденция на графовете Пенялвер. Там се провежда Хаванското биенале с участието на стотици художници от 
+                    цял свят. Музеят на колониалното изкуство, Наполеоновият музей, музеите на парфюмерията, музиката и филателията.
+                </p>
+            </div>
+            <br/>
+            <div class="offert-3">
+                <img src="/week4/images/8.jpg" class="" alt="">
+                <h3>Истанбул</h3>
+                <p>Истанбу̀л е най-големият град в Турция, който служи като икономически, културен и исторически център на страната. 
+                    Градът пресича протока Босфор, разположен както в Европа, така и в Азия, и има население от над 15 милиона жители, 
+                    което представлява 19 % от населението на Турция. Истанбул е най-населеният европейски град и 15-ия по големина град 
+                    в света. Градът е основан като Византия през 7 век пр.н.е. от гръцки заселници от Мегара. През 330 г. римският император 
+                    Константин Велики го прави своя имперска столица, преименувайки го първо на Нов Рим и след това на Константинопол на 
+                    себе си. Градът нараства по размер и влияние, в крайна сметка се превръща в фар на Пътя на коприната и в един от 
+                    най-важните градове в историята. Истанбул е град с вековна история и затова и местата, които могат да се посетят са 
+                    много. Ето някои от тях: Топкапъ сарай – по време на Османската империя дворецът е бил резиденция на турските султани; 
+                    Света София – църква, превърната в джамия след унищожаването на Византия от османските турци, музей (от 1935 до 2020), 
+                    от 2020 година отново е действаща джамия.; Българската желязна църква „Свети Стефан“; Капалъчаршъ – известният покрит 
+                    пазар; Султан Ахмед джамия – известната „Синя джамия“; Златният рог – залив на Босфора; площад Таксим – известен площад.
+                </p>
+            </div>
+        </div>
+        <div class="more">
+            <button type="load-more">Зареди още</button>
+        </div>
+    </body>
+</html>
